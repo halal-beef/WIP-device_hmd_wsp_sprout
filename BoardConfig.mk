@@ -74,7 +74,7 @@ BOARD_USES_MTK_HARDWARE := true
 BOARD_HAS_MTK_HARDWARE := true
 
 NEEDS_KERNEL_COPY						:= true
-else
+   else
 TARGET_BOARD_KERNEL_HEADERS				+= \
 	$(LOCAL_PATH)/kernel-headers \
 	device/mediatek/common/kernel-headers
