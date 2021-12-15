@@ -175,13 +175,6 @@ TARGET_SYSTEM_PROP := $(DEVICE_PATH)/configs/system.prop
 TARGET_VENDOR_PROP := $(DEVICE_PATH)/configs/vendor.prop
 TARGET_PRODUCT_PROP := $(DEVICE_PATH)/configs/product.prop
 
-# Recovery
-BOARD_INCLUDE_RECOVERY_DTBO				:= true
-BOARD_USES_RECOVERY_AS_BOOT				:= true
-TARGET_RECOVERY_FSTAB 					:= $(DEVICE_PATH)/rootdir/recovery.fstab
-TARGET_RECOVERY_PIXEL_FORMAT			:= "BGRA_8888"
-#RECOVERY_VARIANT						:= twrp
-
 # TWRP
 ifeq ($(RECOVERY_VARIANT),twrp)
 TW_THEME := portrait_hdpi
