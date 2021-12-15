@@ -12,9 +12,9 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 PRODUCT_NAME := lineage_WSP_sprout
-PRODUCT_DEVICE := 2.2
+PRODUCT_DEVICE := WSP_sprout
 PRODUCT_BRAND := Nokia
-PRODUCT_MODEL := WSP_sprout
+PRODUCT_MODEL := 2.2
 PRODUCT_MANUFACTURER := hmd
 
 PRODUCT_GMS_CLIENTID_BASE := android-WSP_sprout
