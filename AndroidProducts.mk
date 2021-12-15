@@ -14,6 +14,6 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/lineage_ra8.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/lineage_WSP_sprout.mk
 
-COMMON_LUNCH_CHOICES := lineage_ra8-userdebug
+COMMON_LUNCH_CHOICES := lineage_WSP_sprout-userdebug
